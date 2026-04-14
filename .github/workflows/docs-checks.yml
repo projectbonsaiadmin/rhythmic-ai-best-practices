@@ -1,0 +1,33 @@
+name: Docs Checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  markdown-and-links:
+    name: markdown-and-links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Lint Markdown
+        run: npx --yes markdownlint-cli2 "**/*.md" "#node_modules"
+
+      - name: Check Markdown links
+        run: |
+          while IFS= read -r -d '' file; do
+            echo "Checking links in $file"
+            npx --yes markdown-link-check --quiet --config .markdown-link-check.json "$file"
+          done < <(find . -name '*.md' -not -path './.git/*' -print0)
