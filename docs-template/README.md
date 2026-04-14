@@ -24,12 +24,12 @@ Fork this repo and customize the templates for your project. The structure is re
 
 ### Option 2: Copy what you need
 
-Clone or download, then copy files into your existing project:
+Clone or download, then work from the portable kit:
 
 ```bash
 # Clone the repo
 git clone https://github.com/projectbonsaiadmin/rhythmic-ai-best-practices.git
-cd rhythmic-ai-best-practices
+cd rhythmic-ai-best-practices/docs-template
 
 # Copy templates to your project root
 cp templates/CLAUDE.md /path/to/your/project/CLAUDE.md
@@ -64,7 +64,7 @@ cp templates/LOVABLE.md /path/to/your/project/AGENT_NAME.md
 ## What's in This Repo
 
 ```
-rhythmic-ai-best-practices/
+docs-template/
 +-- templates/                         # Drop-in markdown templates for your repo root
 |   +-- CLAUDE.md                      # Architecture & conventions (master doc)
 |   +-- DESIGN.md                      # Design system (visual authority)

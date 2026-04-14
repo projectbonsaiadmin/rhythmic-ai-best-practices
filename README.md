@@ -24,12 +24,12 @@ Fork this repo and customize the templates for your project. The structure is re
 
 ### Option 2: Copy what you need
 
-Clone or download, then copy files into your existing project:
+Clone or download, then work from the portable kit in `docs-template/`:
 
 ```bash
 # Clone the repo
 git clone https://github.com/projectbonsaiadmin/rhythmic-ai-best-practices.git
-cd rhythmic-ai-best-practices
+cd rhythmic-ai-best-practices/docs-template
 
 # Copy templates to your project root
 cp templates/CLAUDE.md /path/to/your/project/CLAUDE.md
@@ -65,24 +65,25 @@ cp templates/LOVABLE.md /path/to/your/project/AGENT_NAME.md
 
 ```
 rhythmic-ai-best-practices/
-+-- templates/                         # Drop-in markdown templates for your repo root
-|   +-- CLAUDE.md                      # Architecture & conventions (master doc)
-|   +-- DESIGN.md                      # Design system (visual authority)
-|   +-- DECISIONS.md                   # Decision log with rationale
-|   +-- LEARNINGS.md                   # Technical gotchas and patterns
-|   +-- SHIFT_CHART.md                 # Cross-session state handoff
-|   +-- TODO.md                        # Prioritized task tracking
-|   +-- TESTS.md                       # Test inventory and conventions
-|   +-- LOVABLE.md                     # Secondary agent instructions
-|   +-- PROJECT_README.md              # Project README template
-+-- claude-rules/                      # Copy to .claude/rules/ in your project
-|   +-- kaizen.md                      # Leave docs better than you found them
-|   +-- update-docs-after-task.md      # Post-task documentation protocol
-|   +-- read-docs-before-coding.md     # Pre-coding reading checklist
-|   +-- design-system.md              # DESIGN.md compliance enforcement
-|   +-- context-efficiency.md          # Context window usage optimization
-+-- guide/
-    +-- DOCUMENTATION_SYSTEM.md        # Deep dive: how and why the system works
++-- docs-template/                     # Portable kit to copy into your own repo
+|   +-- templates/                    # Drop-in markdown templates for your repo root
+|   |   +-- CLAUDE.md                 # Architecture & conventions (master doc)
+|   |   +-- DESIGN.md                 # Design system (visual authority)
+|   |   +-- DECISIONS.md              # Decision log with rationale
+|   |   +-- LEARNINGS.md              # Technical gotchas and patterns
+|   |   +-- SHIFT_CHART.md            # Cross-session state handoff
+|   |   +-- TODO.md                   # Prioritized task tracking
+|   |   +-- TESTS.md                  # Test inventory and conventions
+|   |   +-- LOVABLE.md                # Secondary agent instructions
+|   |   +-- PROJECT_README.md         # Project README template
+|   +-- claude-rules/                 # Copy to .claude/rules/ in your project
+|   |   +-- kaizen.md                 # Leave docs better than you found them
+|   |   +-- update-docs-after-task.md # Post-task documentation protocol
+|   |   +-- read-docs-before-coding.md # Pre-coding reading checklist
+|   |   +-- design-system.md          # DESIGN.md compliance enforcement
+|   |   +-- context-efficiency.md     # Context window usage optimization
+|   +-- guide/
+|       +-- DOCUMENTATION_SYSTEM.md   # Deep dive: how and why the system works
 ```
 
 ## The Documentation Hierarchy
@@ -150,7 +151,7 @@ The system supports multiple agents (Claude Code, Lovable, Cursor, human develop
 
 ## Learn More
 
-Read [`guide/DOCUMENTATION_SYSTEM.md`](guide/DOCUMENTATION_SYSTEM.md) for a deep dive into how the system works, why each file exists, the authority hierarchy, and what makes it effective.
+Read [`docs-template/guide/DOCUMENTATION_SYSTEM.md`](docs-template/guide/DOCUMENTATION_SYSTEM.md) for a deep dive into how the system works, why each file exists, the authority hierarchy, and what makes it effective.
 
 ## Contributing
 
