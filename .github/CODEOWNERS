@@ -1,0 +1,6 @@
+* @projectbonsaiadmin
+/.github/ @projectbonsaiadmin
+/docs-template/ @projectbonsaiadmin
+/docs-template/templates/ @projectbonsaiadmin
+/docs-template/claude-rules/ @projectbonsaiadmin
+/docs-template/guide/ @projectbonsaiadmin
