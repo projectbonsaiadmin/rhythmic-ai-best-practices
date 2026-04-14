@@ -12,7 +12,7 @@ This repo contains the documentation system, Claude Code rules, and markdown tem
 
 ## Who This Is For
 
-- Teams using **Claude Code**, **Lovable**, **Cursor**, or other AI coding agents
+- Teams using **Claude Code**, **Lovable**, **Codex**, **Cursor**, or other AI coding agents
 - Solo developers who use AI agents across multiple sessions and want continuity
 - Anyone tired of AI agents producing generic, template-looking output
 
