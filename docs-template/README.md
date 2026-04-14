@@ -1,6 +1,6 @@
 # Rhythmic AI Best Practices
 
-A battle-tested documentation system for building software with AI agents, extracted from [Rhythmic Tools](https://rhythmic-tools.com) -- a production codebase built with Claude Code, Lovable, and human developers over several months.
+A battle-tested documentation system for building software with AI agents, extracted from a production codebase built with Claude Code, Lovable, and human developers over several months.
 
 When multiple AI agents share a codebase, three things break fast:
 

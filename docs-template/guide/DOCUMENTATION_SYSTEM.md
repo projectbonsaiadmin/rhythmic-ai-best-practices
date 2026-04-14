@@ -1,6 +1,6 @@
 # How the Documentation System Works
 
-This guide explains the documentation system extracted from rhythmic-tools-v2 -- a project built over months with multiple LLM agents (Claude Code, Lovable) and human developers collaborating on the same codebase. The system evolved to solve real coordination problems: agents repeating solved bugs, overriding deliberate decisions, conflicting with each other's work, and producing generic AI-looking output.
+This guide explains the documentation system extracted from a production project built over months with multiple LLM agents (Claude Code, Lovable) and human developers collaborating on the same codebase. The system evolved to solve real coordination problems: agents repeating solved bugs, overriding deliberate decisions, conflicting with each other's work, and producing generic AI-looking output.
 
 The system is not just a collection of files. It's a protocol -- a set of interlocking practices that keep the project coherent across sessions and agents.
 
